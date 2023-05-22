@@ -12,7 +12,7 @@ namespace CursoCSharp.EstruturasDeControle
         {
 
 
-            int soma = 0;
+            /*int soma = 0;
             //Exercicio 1 
             for (int contador = 0; contador < 10; contador++)
             {
@@ -25,7 +25,7 @@ namespace CursoCSharp.EstruturasDeControle
              
 
 
-            /*Exercicio 2
+            /*Exercicio 2*/
              
             Console.WriteLine("Informe um número: ");
             int.TryParse(Console.ReadLine(), out int n);
@@ -36,7 +36,7 @@ namespace CursoCSharp.EstruturasDeControle
             {
                 Console.WriteLine(contador);
                 contador++;
-            }*/
+            }
             /* Exercicio 3
             Console.WriteLine("informe um número: ");
             int.TryParse(Console.ReadLine(), out int n);
