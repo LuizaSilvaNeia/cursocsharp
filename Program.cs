@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+
+
 
 
 
@@ -39,7 +42,12 @@ namespace CursoCSharp {
                 {"Get e Set Segundo Exemplo- Classes e Métodos",GetESetsegundoExemplo.Executar },
                 {"Exercicio 1 Get e Set - Classes e Métodos ", Ex1GetESet.Executar},
                 { "Exercicio 2 Get e Set - Classes e Métodos ", Ex2GetESet.Executar },
-                { "Exercicio 3 Get e Set - Classes e Métodos ", Ex3GetESet.Executar }
+                { "Exercicio 3 Get e Set - Classes e Métodos ", Ex3GetESet.Executar },
+
+                //Coleção
+                {"Array - Coloeções", Arrays.Executar },
+                {"Coleçoes Queue - Coleções ", ColecoesQueue.Executar },
+                {"Coleções Stack - Coleções", ColecoesStack.Executar }
 
 
             });
