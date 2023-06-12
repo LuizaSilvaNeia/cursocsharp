@@ -4,6 +4,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
 
 
 
@@ -47,7 +48,12 @@ namespace CursoCSharp {
                 //Coleção
                 {"Array - Coloeções", Arrays.Executar },
                 {"Coleçoes Queue - Coleções ", ColecoesQueue.Executar },
-                {"Coleções Stack - Coleções", ColecoesStack.Executar }
+                {"Coleções Stack - Coleções", ColecoesStack.Executar },
+
+                //POO 
+                {"Herança - POO",Heranca.Executar },
+                {"Construtor This - POO",ConstrutorThis.Executar },
+                {"Encapsulamento - POO", POO.Encapsulamento.Executar }
 
 
             });
