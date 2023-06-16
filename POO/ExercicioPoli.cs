@@ -31,7 +31,7 @@ namespace CursoCSharp.POO
             Cliente cliente = new Cliente();
             Console.WriteLine("Informe seu nome: ");
             cliente.Nome = Console.ReadLine();
-            Console.WriteLine("Você é cliente fisico ou juridico? ");
+            Console.WriteLine("Você é uma pessoa física ou jurídica? ");
             cliente.Tipo = Console.ReadLine();
 
             Console.WriteLine($"{cliente.Nome} você é uma pessoa {cliente.Tipo}");
